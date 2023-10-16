@@ -1,0 +1,13 @@
+package arabamCom;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Otomobil HondaS2000=new Otomobil();
+		MotorCycle ZX10r=new MotorCycle();
+		OtomoBil.name=HondaS2000;
+		
+
+	}
+
+}

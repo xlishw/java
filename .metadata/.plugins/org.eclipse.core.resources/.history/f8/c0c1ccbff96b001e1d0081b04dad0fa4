@@ -1,0 +1,27 @@
+package constructor;
+
+public class Main {
+
+	public static void main(String[] args) {
+	 Apartment bahcelidaire=new Apartment("Bahçelievler Mahallesinde Süperlüx 3+1 Daire",3582000);
+	 System.out.println(bahcelidaire.caption);
+	 Apartment kalicidaire=new Apartment("2+1 ,Kutu gibi daire",2354000);
+	 System.out.println(kalicidaire.caption);
+	 System.out.println(bahcelidaire.price);
+	 
+	 Apartment saglikd1=new Apartment("Yeni Daire");
+	 saglikd1.price=168500;
+	 System.out.println(saglikd1.caption);
+	 
+	 House mustakilA=new House();
+	 House mustakilB=new House("Daðkent A Tipi villa", 4875000, 284, 3, false);
+	 House mustakilC=new House("Elmalýk Villa", 3487000, 147, 2,false);
+	 mustakilA.info();
+	 mustakilB.info();
+	 mustakilC.info();
+	 
+	 Residence rez1=new Residence();
+	 residence rez2=new Residence("MyDream City de süper lüx Rezidans", 7840000, 234);
+	}
+
+}

@@ -1,0 +1,10 @@
+package constructor;
+
+public class Apartment {
+	public String caption;
+	public double price;
+	public  Apartment() {
+		System.out.println("ben çalýþtým");
+	}
+}
+

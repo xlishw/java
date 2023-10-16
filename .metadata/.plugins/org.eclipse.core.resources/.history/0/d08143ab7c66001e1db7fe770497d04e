@@ -1,0 +1,18 @@
+package arabamCom;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Otomobil araba=new Otomobil();
+		MotorCycle ZX10r=new MotorCycle();
+		araba.name="Honda S2000";
+		araba.km=114567;
+		araba.color="red";
+		araba.lpg=false;
+		araba.model="2005";
+		araba.fuelOil=true;
+		araba.diesel=false;
+		araba.price=1200000;
+	}
+
+}

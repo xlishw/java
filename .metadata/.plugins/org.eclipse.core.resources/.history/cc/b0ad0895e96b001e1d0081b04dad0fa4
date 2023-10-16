@@ -1,0 +1,10 @@
+package constructor;
+
+public class Apartment {
+	public String caption;
+	public double price;
+	public  Apartment(String d1,double d2) {
+		System.out.println("d1);
+	}
+}
+

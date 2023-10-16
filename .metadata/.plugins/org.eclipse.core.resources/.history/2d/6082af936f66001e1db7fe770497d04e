@@ -1,0 +1,16 @@
+import marketObject.Book;
+import marketObject.Product;
+
+public class Main {
+	public static void main(String[] args) {
+		Product erik=new Product();
+		erik.name="Kýtýr Kýtýr erik";
+		erik.cost=34.80;
+		erik.quan=12.80;
+		erik.price=erik.quan*erik.cost;
+			
+		
+
+	}
+
+}

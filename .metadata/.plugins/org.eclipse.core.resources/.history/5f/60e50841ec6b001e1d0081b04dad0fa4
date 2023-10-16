@@ -1,0 +1,16 @@
+package constructor;
+
+public class Main {
+
+	public static void main(String[] args) {
+	 Apartment bahcelidaire=new Apartment("Bahçelievler Mahallesinde Süperlüx 3+1 Daire",3582000);
+	 System.out.println(bahcelidaire.caption);
+	 Apartment kalicidaire=new Apartment("2+1 ,Kutu gibi daire",2354000);
+	 System.out.println(kalicidaire.caption);
+	 System.out.println(bahcelidaire.price);
+	 
+	 Apartment saglikd1=new Apartment("Yeni Daire");
+	 System.out.println(saglikd1.caption);
+	}
+
+}

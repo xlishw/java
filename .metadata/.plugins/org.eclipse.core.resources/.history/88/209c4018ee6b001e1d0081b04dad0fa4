@@ -1,0 +1,9 @@
+package constructor;
+
+public class House {
+	public String caption;
+	public double price;
+	public double m2;
+	public double floorCount;
+	public boolean pool;
+}
